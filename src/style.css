@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+}
+
+.collapse__btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.collapse__content {
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  max-height: 0;
+}
+
+.collapse__content.show {
+  /* Will be dynamically controlled via JS */
+}
+
